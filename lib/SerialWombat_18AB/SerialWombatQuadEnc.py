@@ -27,9 +27,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 
 #include <stdint.h>
 #include "SerialWombat.h"
-from SerialWombat_18AB.SerialWombatPin import SerialWombatPin
-from SerialWombat_18AB.SerialWombat import SW_LE16
-from SerialWombat_18AB.SerialWombat import SW_LE32
+from .SerialWombatPin import SerialWombatPin
+from .SerialWombat import SW_LE16
+from .SerialWombat import SW_LE32
 #from enum import IntEnum
 
 
