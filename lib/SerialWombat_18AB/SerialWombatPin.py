@@ -1,4 +1,4 @@
-import SerialWombat_18AB.SerialWombat as SerialWombat
+import .SerialWombat as SerialWombat
 
 class SerialWombatPin:
     _sw = 0 # will be serial wombat
