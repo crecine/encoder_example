@@ -27,11 +27,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 #include <stdint.h>
 #include "SerialWombat.h"
 
-import SerialWombat_18AB.SerialWombat as SerialWombat
-from SerialWombat_18AB.SerialWombatPin import SerialWombatPin
-from SerialWombat_18AB.SerialWombat import SW_LE16
-from SerialWombat_18AB.ArduinoFunctions import millis
-from SerialWombat_18AB.ArduinoFunctions import delay
+import .SerialWombat as SerialWombat
+from .SerialWombatPin import SerialWombatPin
+from .SerialWombat import SW_LE16
+from .ArduinoFunctions import millis
+from .ArduinoFunctions import delay
 
 
 class SerialWombatQueueType():
