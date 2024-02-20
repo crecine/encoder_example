@@ -1,4 +1,4 @@
-import SerialWombat_18AB.SerialWombat as SerialWombat
+import .SerialWombat as SerialWombat
 import time
 import busio
 from adafruit_bus_device.i2c_device import I2CDevice
