@@ -27,9 +27,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 """
 import time
 #from enum import IntEnum
-from SerialWombat_18AB.ArduinoFunctions import delayMicroseconds
-from SerialWombat_18AB.ArduinoFunctions import millis
-from SerialWombat_18AB.ArduinoFunctions import delay
+from .ArduinoFunctions import delayMicroseconds
+from .ArduinoFunctions import millis
+from .ArduinoFunctions import delay
 
 
 
